@@ -2,8 +2,11 @@
 
 void	ft_swap(int *a, int *b)
 {
-	*a = 19;
-	*b = 22;
+	int	aux;
+
+	aux = *a;
+	*a = *b;
+	*b = aux;
 }
 
 int	main(void)
